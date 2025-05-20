@@ -58,7 +58,7 @@ export function Education({ eInfo, setEInfo, eList, setEList }) {
 
       <button onClick={addEducation}>Add Education</button>
 
-      <div className="experiences">
+      <div className="educations">
         {eList.map((info) => (
     <div key={info.id} className="ex" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
     <button onClick={() => changeEducation(info.id)} style={{ flex: 1 }}>
